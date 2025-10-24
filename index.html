@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div id="gooegle_translate_element"></div>
+
+    <div class="video-background">
+      <video autoplay muted loop playsinline>
+        <source src="https://videos.pexels.com/video-files/2611250/2611250-hd_1920_1080_30fps.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Navigation -->
+ <nav>
+      <div class="container">
+        <div class="logo">&lt;Nicholas S&gt;</div>
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="language-selector">
+            <button class="language-btn" id="languageBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+              <span id="currentLang">EN</span>
+            </button>
+            <div class="language-dropdown" id="languageDropdown">
+             <div class="language-option active" data-lang="en">English</div>
+             <div class="language-option" data-lang="id">Indonesia</div>
+             <div class="language-option" data-lang="zh-CN">Chinese</div>
+             <div class="language-option" data-lang="ja">Japanese</div>
+             <div class="language-option" data-lang="es">Spanish</div>
+             <div class="language-option" data-lang="ko">Korean</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h1 class="fade-in">
+        Hi, I'm <span class="accent-text">Nicholas Susanto</span>
+      </h1>
+      <h2 class="fade-in">Information System Student</h2>
+      <p class="fade-in">
+        I build exceptional digital experiences that combine clean code with
+        intuitive design. Passionate about creating scalable web applications
+        and solving complex problems.
+      </p>
+      <a href="#contact" class="cta-button fade-in">Get In Touch</a>
+
+      <div class="hero-social fade-in">
+        <a
+          href="https://github.com/Nicholas-HD"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="GitHub"
+        >
+          <span class="icon-default">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              ></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path>
+            </svg>
+          </span>
+          <span class="icon-hover icon-github-hover">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              ></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path>
+            </svg>
+          </span>
+        </a>
+
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="YouTube"
+        >
+          <span class="icon-default">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+              ></path>
+              <path d="m10 15 5-3-5-3z"></path>
+            </svg>
+          </span>
+          <span class="icon-hover icon-youtube-hover">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+              ></path>
+              <path d="m10 15 5-3-5-3z"></path>
+            </svg>
+          </span>
+        </a>
+
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="TikTok"
+        >
+          <span class="icon-default">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+            </svg>
+          </span>
+          <span class="icon-hover icon-tiktok-hover">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+            </svg>
+          </span>
+        </a>
+
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
+          <span class="icon-default">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </span>
+          <span class="icon-hover icon-instagram-hover">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </span>
+        </a>
+
+        <a
+          href="https://linkedin.com/in/nicholas-susanto-098892259/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="LinkedIn"
+        >
+          <span class="icon-default">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </span>
+          <span class="icon-hover icon-linkedin-hover">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+
+      <!-- Tab Navigation -->
+      <div class="tab-container">
+        <button class="tab-button active" data-tab="philosophy">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"
+            ></path>
+            <path d="M9 13a4.5 4.5 0 0 0 3-4"></path>
+            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path>
+            <path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path>
+            <path d="M6 18a4 4 0 0 1-1.967-.516"></path>
+            <path d="M12 13h4"></path>
+            <path d="M12 18h6a2 2 0 0 1 2 2v1"></path>
+            <path d="M12 8h8"></path>
+            <path d="M16 8V5a2 2 0 0 1 2-2"></path>
+            <circle cx="16" cy="13" r=".5"></circle>
+            <circle cx="18" cy="3" r=".5"></circle>
+            <circle cx="20" cy="21" r=".5"></circle>
+            <circle cx="20" cy="8" r=".5"></circle>
+          </svg>
+          Soft Skills
+        </button>
+        <button class="tab-button" data-tab="skills">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="6" x2="10" y1="11" y2="11"></line>
+            <line x1="8" x2="8" y1="9" y2="13"></line>
+            <line x1="15" x2="15.01" y1="12" y2="12"></line>
+            <line x1="18" x2="18.01" y1="10" y2="10"></line>
+            <path
+              d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"
+            ></path>
+          </svg>
+          Technical Skills
+        </button>
+        <div class="tab-indicator"></div>
+      </div>
+
+      <!-- Tab Contents -->
+      <div class="about-content">
+        <!-- Philosophy Tab -->
+        <div class="tab-content active" id="philosophy">
+          <div class="philosophy-grid">
+            <div class="philosophy-card">
+              <div class="philosophy-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="philosophy-content">
+                <h4>Teamwork</h4>
+                <p>
+                  I enjoy collaborating with others to achieve common goals. I
+                  believe that great results come from open communication,
+                  mutual respect, and shared ideas.
+                </p>
+              </div>
+            </div>
+
+            <div class="philosophy-card">
+              <div class="philosophy-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="philosophy-content">
+                <h4>Time Management</h4>
+                <p>
+                  I manage my time effectively to meet deadlines without
+                  compromising quality. I prioritize tasks and stay organized to
+                  ensure consistent productivity.
+                </p>
+              </div>
+            </div>
+
+            <div class="philosophy-card">
+              <div class="philosophy-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+              </div>
+              <div class="philosophy-content">
+                <h4>Adaptability</h4>
+                <p>
+                  I can easily adjust to new environments, technologies, and
+                  challenges. I view change as an opportunity to learn and
+                  improve.
+                </p>
+              </div>
+            </div>
+
+            <div class="philosophy-card">
+              <div class="philosophy-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="philosophy-content">
+                <h4>Responsibility</h4>
+                <p>
+                  I take ownership of my work and deliver tasks with commitment
+                  and accountability. I always aim to maintain reliability and
+                  trust in every project.
+                </p>
+              </div>
+            </div>
+
+            <div class="philosophy-card">
+              <div class="philosophy-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M12 1v6m0 6v6"></path>
+                  <path d="m4.2 4.2 4.3 4.3m5 5 4.3 4.3"></path>
+                  <path d="M1 12h6m6 0h6"></path>
+                  <path d="m4.2 19.8 4.3-4.3m5-5 4.3-4.3"></path>
+                </svg>
+              </div>
+              <div class="philosophy-content">
+                <h4>Creativity</h4>
+                <p>
+                  I love exploring innovative solutions and bringing fresh ideas
+                  to every project. My creative mindset helps me find new ways
+                  to solve problems effectively.
+                </p>
+              </div>
+            </div>
+
+            <div class="philosophy-card">
+              <div class="philosophy-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="philosophy-content">
+                <h4>Integrity</h4>
+                <p>
+                  I value honesty, transparency, and ethical behavior. Integrity
+                  guides my actions and decisions, ensuring professionalism in
+                  all my work.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills Tab -->
+        <div class="tab-content" id="skills">
+          <div class="skills-content">
+            <h3>Technical Expertise</h3>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>HTMl,CSS,Bootstrap</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Backend (PHP,Java,Laravel,MySQL)</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Python</span>
+                <span>50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>UI Design</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Peminjaman Buku Perpustakaan Website</h3>
+          <p>
+            A web-based library system built with Java Spring Boot to simplify
+            book borrowing, returning, and catalog management, offering a secure
+            and user-friendly experience for librarians and users.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Html</span>
+            <span class="tag">Java</span>
+            <span class="tag">CSS</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Bootstrap</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Destinasi Wisata Website</h3>
+          <p>
+            A digital tourism website designed to showcase and manage travel
+            destinations online, providing users with easy access to information
+            and interactive destination insights.
+          </p>
+          <div class="project-tags">
+            <span class="tag">PHP</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Pengaduan Masyarakat Website</h3>
+          <p>
+            A community complaint website built with Laravel and a responsive
+            CSS template, enabling users to submit, track, and manage public
+            reports easily and efficiently.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">PHP</span>
+            <span class="tag">Laravel</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Pengaduan Sekolah Website</h3>
+          <p>
+            A school complaint website built with Laravel and a responsive CSS
+            template, allowing students and staff to submit and manage
+            school-related reports efficiently.
+          </p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">PHP</span>
+            <span class="tag">Laravel</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Data Analys On Weather Using Python</h3>
+          <p>Analyzed weather data from BMKG using pandas in jupyter notebook. Task include data collection, data cleaning, data visualization, and tren analysis data for temperature, wind speed, humidity, and solar radiation.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Jupyter Notebook</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>ETL DataWareHouse</h3>
+          <p>Developed a data warehouse system for a candy distribution company operating in the United States. This project aimed to integrate and analyze data related to sales, customers, and the company's performance in producing and distributing candy products.</p>
+          <div class="project-tags">
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+     <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p class="contact-text">Feel free to reach out for collaborations or just a friendly chat. I'm always open to discussing new projects and opportunities.</p>
+            <a href="mailto:theoomaximus@gmail.com@example.com" class="cta-button">Email Me</a>
+            <div class="social-links">
+                <a href="https://github.com/Nicholas-HD" title="GitHub">GitHub</a>
+                <a href="https://linkedin.com/in/nicholas-susanto-098892259/" title="LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+      <footer>
+        <p>&copy; 2025 Nicholas Susanto. Built with HTML, CSS & JavaScript.</p>
+        <p class="footer-location">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Indonesia, Jakarta Barat</span>
+        </p>
+        <p class="footer-location">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span>thamnicholas2005@gmail.com</span>
+        </p>
+    </footer>
+    </footer>
+
+
+    <!-- Scroll To Top Button -->
+    <button id="toTopBtn" title="Go to top" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+    </svg>
+    </button>
+
+     <script>
+      function changeLanguage(lang) {
+      let attempts = 0;
+      const maxAttempts = 100;
+      function tryChange() {
+        const select = document.querySelector('.goog-te-combo');
+        if (select && select.options && select.options.length > 1) {
+          if (select.value !== lang) {
+            select.value = lang;
+            select.dispatchEvent(new Event('change', { bubbles: true }));
+            console.log('Ganti ke:', lang);
+          }
+        } else if (attempts < maxAttempts) {
+          attempts++;
+          setTimeout(tryChange, 100);
+        }
+      }
+      setTimeout(tryChange, 1000);
+    }
+
+    // Load Google Translate
+    (function() {
+      const s = document.createElement('script');
+      s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      document.head.appendChild(s);
+    })();
+
+    // DOM Ready
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('languageBtn');
+      const dropdown = document.getElementById('languageDropdown');
+      const current = document.getElementById('currentLang');
+      const options = document.querySelectorAll('.language-option');
+      const codes = { 'en': 'EN', 'id': 'ID', 'zh-CN': 'CN', 'ja': 'JP', 'es': 'ES','ko': 'KR'};
+
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+      });
+
+      document.addEventListener('click', () => dropdown.style.display = 'none');
+
+      options.forEach(opt => {
+        opt.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const lang = opt.dataset.lang;
+          options.forEach(o => o.classList.remove('active'));
+          opt.classList.add('active');
+          current.textContent = codes[lang];
+          changeLanguage(lang);
+          dropdown.style.display = 'none';
+        });
+      });
+
+      // Default
+      setTimeout(() => changeLanguage('en'), 1500);
+    });
+    </script>
+
+
+    <script>
+      // Smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Scroll to Top Button
+    const toTopBtn = document.getElementById("toTopBtn");
+
+     // Munculkan tombol saat scroll turun
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    toTopBtn.style.display = "block";
+  } else {
+    toTopBtn.style.display = "none";
+  }
+});
+
+// Scroll halus ke atas saat tombol diklik
+toTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+      // Tab Navigation
+      const tabButtons = document.querySelectorAll(".tab-button");
+      const tabContents = document.querySelectorAll(".tab-content");
+      const tabIndicator = document.querySelector(".tab-indicator");
+
+      function setIndicatorPosition(button) {
+        const buttonRect = button.getBoundingClientRect();
+        const containerRect = button.parentElement.getBoundingClientRect();
+        tabIndicator.style.left = buttonRect.left - containerRect.left + "px";
+        tabIndicator.style.width = buttonRect.width + "px";
+      }
+
+      // Set initial indicator position
+      const activeButton = document.querySelector(".tab-button.active");
+      if (activeButton) {
+        setIndicatorPosition(activeButton);
+      }
+
+      tabButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const targetTab = button.getAttribute("data-tab");
+
+          // Remove active class from all buttons and contents
+          tabButtons.forEach((btn) => btn.classList.remove("active"));
+          tabContents.forEach((content) => content.classList.remove("active"));
+
+          // Add active class to clicked button and corresponding content
+          button.classList.add("active");
+          document.getElementById(targetTab).classList.add("active");
+
+          // Move indicator
+          setIndicatorPosition(button);
+        });
+      });
+
+      // Recalculate indicator position on window resize
+      window.addEventListener("resize", () => {
+        const activeBtn = document.querySelector(".tab-button.active");
+        if (activeBtn) {
+          setIndicatorPosition(activeBtn);
+        }
+      });
+
+      // Intersection Observer for animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -100px 0px",
+      };
+
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections
+      document.querySelectorAll("section").forEach((section) => {
+        section.style.opacity = "0";
+        section.style.transform = "translateY(20px)";
+        section.style.transition = "opacity 0.8s ease, transform 0.8s ease";
+        observer.observe(section);
+      });
+
+      // Skill bars animation
+      const skillObserver = new IntersectionObserver(
+        function (entries) {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const progressBars =
+                entry.target.querySelectorAll(".skill-progress");
+              progressBars.forEach((bar) => {
+                bar.style.width = bar.style.width;
+              });
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      const skillsSection = document.querySelector(".about-skills");
+      if (skillsSection) {
+        skillObserver.observe(skillsSection);
+      }
+
+    </script>
+    
+    <script>
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement(
+                {pageLanguage:"en"},
+                "gooegle_translate_element"
+            )
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
